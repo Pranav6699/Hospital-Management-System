@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hospitalmanagmentandpatientsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:name="com.example.hospitalmanagmentandpatientsystem.GlobalClass"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.LoginpageActivity"
+            android:label="@string/title_activity_loginpage" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.RegistrationpageActivity"
+            android:label="@string/title_activity_registrationpage" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.PatienthomepageActivity"
+            android:label="@string/title_activity_patienthomepage" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.DoctorshomepageActivity"
+            android:label="@string/title_activity_doctorshomepage" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.PatientdoctorsearchActivity"
+            android:label="@string/title_activity_patientdoctorsearch" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.PatienthealthrecordsActivity"
+            android:label="@string/title_activity_patienthealthrecords" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.FeedbackActivity"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.BookfortestActivity"
+            android:label="@string/title_activity_bookfortest" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.BookroomsActivity"
+            android:label="@string/title_activity_bookrooms" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.DoctorsregistrationActivity"
+            android:label="@string/title_activity_doctorsregistration" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.AdminhomepageActivity"
+            android:label="@string/title_activity_adminhomepage" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.Adddoctor"
+            android:label="@string/title_activity_adddoctor" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.Outpatientlist"
+            android:label="@string/title_activity_outpatientlist" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.Booking"
+            android:label="@string/title_activity_booking" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.Doctorsbooking"
+            android:label="@string/title_activity_doctorsbooking" >
+        </activity>
+        <activity
+            android:name="com.example.hospitalmanagmentandpatientsystem.Patientfeedback"
+            android:label="@string/title_activity_patientfeedback" >
+        </activity>
+    </application>
+
+</manifest>
